@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, Blue, black, red, purple);
+}
+div{
+  margin-top: 50px;
+  margin-left:30px ;
+  margin-right: 30px;
+  width: 25%;
+  border: 5px solid orange;
+  border-radius: 10px;
+  box-shadow: 0 0 20px orange;
+  transition-duration: 1s;
+  transition: 2s;
+}
+img{
+  width: 70%;
+}
+
+h1{
+  text-shadow: 0 0 10px red;
+  background-color: blue;
+}
+div:hover{
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: orange;
+  text-shadow: 0 0 10px purple;
+  transform: rotate(-360deg);
+}
